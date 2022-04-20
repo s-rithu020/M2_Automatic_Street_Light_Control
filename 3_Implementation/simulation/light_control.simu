@@ -50,7 +50,7 @@ Circuit Id: Resistor-10
 
 Unique  Id: LDR-11: 
 Circuit Id: LDR-11
-<item y="-188" Gamma="0.85819999999999996" labelrot="0" itemtype="LDR" labelx="-16" boardPos="-1e+06,-1e+06" Min_Lux="1" circRot="-5.4861292803319049e+303" vflip="1" hflip="1" Max_Lux="999" Lux="1" circPos="0,0" labely="-24" x="284" boardRot="-1000000" mainComp="false" rotation="0" valLabely="30" R1="127410" objectName="LDR-11" id="LDR-11" Dial_Step="1" Show_id="false" valLabelx="-16" valLabRot="0"/>
+<item y="-188" Gamma="0.85819999999999996" labelrot="0" itemtype="LDR" labelx="-16" boardPos="-1e+06,-1e+06" Min_Lux="1" circRot="-5.4861292803319049e+303" vflip="1" hflip="1" Max_Lux="999" Lux="51" circPos="0,0" labely="-24" x="284" boardRot="-1000000" mainComp="false" rotation="0" valLabely="30" R1="127410" objectName="LDR-11" id="LDR-11" Dial_Step="1" Show_id="false" valLabelx="-16" valLabRot="0"/>
 
 Unique  Id: Led-26: 
 Circuit Id: Led-26
