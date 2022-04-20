@@ -13,7 +13,7 @@
 #include "street_light.h"
 
 void mcu_ports();
-int map(int x, int in_min, int in_max, int out_min, int out_max);
+int map(int i, int in_min, int in_max, int out_min, int out_max);
 void ADC_initialize();
 
 int main(void)
@@ -23,7 +23,7 @@ int main(void)
     
     while(1)
     {
-        switch(map(LDR_input(),0,523,0,3)){
+        switch(map(LDR_input(),0,500,0,3)){
             case 0:
                 PORTB&=~(1<<LED1);
                 PORTC&=~(1<<LED2);
@@ -66,9 +66,9 @@ void mcu_ports()
     PORTD = 0x00u;
 }
 
-int map(int x, int in_min, int in_max, int out_min, int out_max)
+int map(int i, int in_min, int in_max, int out_min, int out_max)
 {
-    return (x - in_min)*(out_max - out_min) / (in_max - in_min) + out_min;
+    return (i - in_min)*(out_max - out_min) / (in_max - in_min) + out_min;
 }
 
 void ADC_initialize()
