@@ -15,7 +15,7 @@ Automatic Street Light Control is an automated system which controls the street 
 ## Continuous Integration and Code Quality
 | Build on Linux | Code Quality | Codacy | Codiga |
 | --- | --- | --- | --- |
-|  |  |  |  |
+|  |  |  | ![Code Quality Score](https://api.codiga.io/project/33071/score/svg) ![Code Grade](https://api.codiga.io/project/33071/status/svg) |
 
 
 ## Folder Structure
