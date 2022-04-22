@@ -40,22 +40,23 @@ It works by automating the street lights efficiently based on how dark the surro
 
 | ID | Description | Status |
 | ---- | ------------------- | ---- |
-| HR01 | Should take values from LDR as input | Implemented |
-| HR02 | Should control the LEDs | Implemented |
-| HR03 | Should have automatic control | Implemented |
+| HLR01 | Should detect the intensity of light at different times in the day | Implemented |
+| HLR02 | The number of street lights switched on depends on the environment | Implemented |
+| HLR03 | Should have automatic control | Implemented |
+| HLR04 | Should have manual control incase of failure | Future |
 
 
 ### Low Level Requirements:
 
 | ID | Description | HLR_ID |
 | ---- | -------------- | ----- |
-| LR01 |  |  |
-| LR02 |  |  |
-| LR03 |  |  |
-| LR04 |  |  |
-| LR05 |   |	 |
-| LR06 |  |  |
-| LR07 |   |  |
+| LR01 | Luminosity of the environment is detected by the LDR | HLR01 |
+| LR02 | All LEDs are off when LDR value (Lux) is high | HLR02 |
+| LR03 | LED1 is switched on when LDR value (Lux) is moderately low | HLR02 |
+| LR04 | LED2 is switched on when LDR value (Lux) is lower than before | HLR02 |
+| LR05 | LED3 is switched on when LDR value (Lux) is the lowest |	HLR02 |
+| LR06 | Automatic control is enabled by ATmega328 and LDR | HLR03 |
+| LR07 | Manual control is enabled by switches  | HLR04 |
 
 
 ## Best Methods to be Followed:
