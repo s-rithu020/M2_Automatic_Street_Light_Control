@@ -15,7 +15,7 @@ Automatic Street Light Control is an automated system which controls the street 
 ## Continuous Integration and Code Quality
 | Build on Linux | Code Quality | Codacy | Codiga |
 | --- | --- | --- | --- |
-| [![Linux CI](https://github.com/s-rithu020/M2_Automatic_Street_Light_Control/actions/workflows/linux-CI.yml/badge.svg)](https://github.com/s-rithu020/M2_Automatic_Street_Light_Control/actions/workflows/linux-CI.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/s-rithu020/M2_Automatic_Street_Light_Control/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/s-rithu020/M2_Automatic_Street_Light_Control/actions/workflows/cppcheck.yml) |  | ![Code Quality Score](https://api.codiga.io/project/33071/score/svg) ![Code Grade](https://api.codiga.io/project/33071/status/svg) |
+| [![Linux CI](https://github.com/s-rithu020/M2_Automatic_Street_Light_Control/actions/workflows/linux-CI.yml/badge.svg)](https://github.com/s-rithu020/M2_Automatic_Street_Light_Control/actions/workflows/linux-CI.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/s-rithu020/M2_Automatic_Street_Light_Control/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/s-rithu020/M2_Automatic_Street_Light_Control/actions/workflows/cppcheck.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2af619efd3174775b1bb18267007cd97)](https://www.codacy.com/gh/s-rithu020/M2_Automatic_Street_Light_Control/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=s-rithu020/M2_Automatic_Street_Light_Control&amp;utm_campaign=Badge_Grade) | ![Code Quality Score](https://api.codiga.io/project/33071/score/svg) ![Code Grade](https://api.codiga.io/project/33071/status/svg) |
 
 
 ## Folder Structure
