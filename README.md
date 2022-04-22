@@ -21,16 +21,17 @@ Automatic Street Light Control is an automated system which controls the street 
 ## Folder Structure
 Folders                | Description
 ----------------------| -----------------------------------------
+`0_Abstract`          | Brief about the project and title
 `1_Requirements`      | Documents detailing requirements and research
 `2_Architecture`      | Documents specifying design details
 `3_Implementation`    | All code and documentation
-`4_TestPlanAndOutput` | Documents with test plans and procedures
+`4_TestCases` | Documents with test plans and procedures
 `5_Report`            | Report document
-`6_Images`            | Images related to the project
+`6_ImagesAndOutput`            | Images related to the project
 
 ## Contributors List and Summary
 
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|Number of Test Cases|Test Case Pass
+PS No. |  Name   |    Features    | Issues Raised |vIssues Resolved | Number of Test Cases | Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-1 | Rithu K Somaiah  | All    | 0   | 0   |5 |5    
+1 | Rithu K Somaiah  | All    | 1   | 1   |5 |5    
   
