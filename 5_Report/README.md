@@ -90,7 +90,7 @@ It works by automating the street lights efficiently based on how dark the surro
 
 Open the `.simu` file in SimulIDE. Load the `.elf` file into the ATmega328 microcontroller.
 
-## Output Images
+# Output Images
 At high intensity of light, that is, during daylight, all street lights remain off.
 
 ![output4](https://user-images.githubusercontent.com/70939522/164748975-819ca7e8-b71a-4286-9389-828d0a1ffbde.png)
