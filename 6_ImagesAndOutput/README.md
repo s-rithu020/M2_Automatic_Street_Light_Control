@@ -19,3 +19,4 @@ At very low light intensities, i.e. nighttime, all street lights will be turned 
 
 
 ## Output Video
+F:\LTTS\github\M2_Automatic_Street_Light_Control\6_ImagesAndOutput\M2_Automatic_Street_Light_Control_video.mp4
