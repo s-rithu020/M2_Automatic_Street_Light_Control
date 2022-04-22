@@ -55,7 +55,7 @@ int main(void)
 
 void mcu_ports()
 {
-    DDRB = 0xFFu;
+    DDRB = 0xFFu; 
     PORTB = 0x00u;
 
     DDRC = 0xFFu;
